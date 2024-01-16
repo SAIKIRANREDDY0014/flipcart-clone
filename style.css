@@ -1,0 +1,258 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(211, 57, 216);
+    height: 55px;
+    text-transform: capitalize;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index:0;
+}
+input{
+    margin-top: 5px;
+    padding: 5px;
+    height: 10px;
+    width: 400px;
+
+}
+button.b1{
+    display: flex;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin: 5px 5px 0 ;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+ul{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li{
+    padding-top: 7px;
+    margin: 0px 20px;
+    list-style: none;
+    font-size: 20px;
+    
+
+}
+ul div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+
+}
+button.b2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    width: 100px;
+    height: 25px;
+    margin-top: 5px;
+}
+img.pic1{
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+li.cart{
+    margin-left: 3px;
+    color: white;
+    font-size: 20px;
+}
+.doop{
+    margin-left: 100px;
+
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    text-transform: capitalize;
+    
+}
+.main{
+    border-bottom: 2px solid white;
+    background-color: white;
+   
+}
+.main ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25vh;
+    overflow: hidden;
+
+}
+main ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 20px 50px;
+    overflow: hidden;
+}
+main ul li p{
+    margin-left: 20px;
+    
+}
+.main ul li a p{
+    color: black;
+}
+.main ul li a p:hover{
+    color: blue;
+}
+.main ul li a img{
+    transition-property:height;
+    transition-property:width;
+
+    
+}
+.main ul li a img:hover{
+    height: 120px;
+    width: 120px;
+    
+}
+
+.main2{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    
+   
+    background-color: aqua;
+
+}
+.main2 .pic1{
+    margin: 0px;
+    width:20vw ;
+   
+   
+}
+
+.main2 .pic2{
+    width: 60vw;
+    height: 50vh;
+    animation: anime1 2s ease-in-out infinite alternate ;
+    
+}
+/* .main2 .pic3{
+    margin: 0px;
+    width: 20vw;
+    
+
+} */
+
+.main3{
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 10px;
+    background-color: white;
+}
+.main3 h2{
+    background-color: #00fff3;
+}
+.main3 ul{
+    width: 100vw;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    
+
+
+}
+.main3 ul li{
+    display: flex;
+    flex-direction: column;
+
+}
+.main3 ul li p{
+    color: black;
+    margin-left: 10px;
+}
+.main3 ul li p:hover{
+    color: blue
+}
+.main3 ul li img{
+    transition-property:width 30s;
+    transition-property: height 30s;
+    
+}
+.main3 ul li img:hover{
+    width: 155px;
+    height: 105px;
+ 
+}
+/* .main4{
+    background-color: aqua;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+   
+}
+.main4 ul{
+    
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.main4 ul li{
+    margin: 5px;
+    width: 20vw;
+
+} */
+
+.main5{
+
+    background-color: rgb(211, 211, 211);
+    text-transform: lowercase;
+    font-size: medium;
+    font-style: italic;
+    padding: 50px;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    height: 10vh;
+
+}
+footer .last{
+    display: flex;
+    justify-content: center;
+    
+}
+footer .last p{
+    color: white;
+    margin-top: 25px;
+
+}
+footer .last p a{
+   color: blue;
+
+}
